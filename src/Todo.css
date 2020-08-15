@@ -1,0 +1,15 @@
+.card{
+    margin: 20px auto;
+    border: 1px black;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 0 4px black;
+    padding: 5px;
+    background: white;
+    text-align: left;
+}
+
+h2{
+    font-family: cursive;
+    color: darkred;
+}

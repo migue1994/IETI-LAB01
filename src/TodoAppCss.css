@@ -1,0 +1,68 @@
+.background{
+    position: absolute;
+    text-align: center;
+    background: #92efdc no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.background .form{
+    width: 30%;
+    border: black 1px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px black;
+    padding: 10px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+}
+
+label{
+    display: inline;
+    margin: 0 10px;
+    text-align: left;
+}
+
+input{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: #35de35 solid 2px;
+    background: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background: #35de35;
+    color: white;
+}
+
+.block{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.labelData{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.inputData{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
