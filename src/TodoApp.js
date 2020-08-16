@@ -18,7 +18,7 @@ export default function TodoApp() {
         const it = {
             text: item.text,
             priority: item.priority,
-            dueDate: new Date()
+            dueDate: item.dueDate
         }
         setItems(prevState => items.concat(it));
         setItem(null);
@@ -51,6 +51,19 @@ export default function TodoApp() {
                             <input
                                 name={'priority'}
                                 value={item && item.priority ? item.priority : ''}
+                                type="text"
+                                onChange={handleChange}
+                            />
+                        </div>
+                    </div>
+                    <div className="block">
+                        <div className="labelData">
+                            <label>dueDate:</label>
+                        </div>
+                        <div className={"inputData"}>
+                            <input
+                                name={'dueDate'}
+                                value={item && item.dueDate ? item.dueDate : ''}
                                 type="text"
                                 onChange={handleChange}
                             />
